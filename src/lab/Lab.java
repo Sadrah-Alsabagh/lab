@@ -48,6 +48,7 @@ public class Lab {
 				addBtns.get(i).click();
 				
 				  // Convert to string to extract the last digit
+				//I did this because it is the only even number that exists and the last digit is equal to 4. The remainder of its division by 2 does not equal zero because it is a fraction, but it is actually an even number.
 	            String final_price_string = Double.toString(finalPrice);
 	            char last_digit_char = final_price_string.charAt(final_price_string.length() - 1);
 	            int lastDigit = Integer.parseInt(String.valueOf(last_digit_char));
